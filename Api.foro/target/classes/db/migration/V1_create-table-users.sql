@@ -1,7 +1,5 @@
-create table users(
-    id bigint not null auto_increment,
-    username varchar(100) not null,
-    password varchar(255) not null,
-
-    primary key(id)
-)
+CREATE TABLE users (
+    id BIGSERIAL PRIMARY KEY,
+    username VARCHAR(100) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL
+);
