@@ -1,4 +1,4 @@
-package apiforo.backend.Apiforo.topico;
+package apiforo.backend.Apiforo.domain.topico.topico;
 
 import jakarta.validation.constraints.NotNull;
 

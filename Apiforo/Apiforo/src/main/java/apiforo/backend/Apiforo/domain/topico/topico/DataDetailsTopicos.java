@@ -1,13 +1,13 @@
-package apiforo.backend.Apiforo.topico;
+package apiforo.backend.Apiforo.domain.topico.topico;
 
-public record DataListTopico(
+public record DataDetailsTopicos(
         Long id,
         String autor,
         String titulo,
         String mensaje,
         String curso
 ) {
-    public DataListTopico(Topico topico){
+    public DataDetailsTopicos(Topico topico){
         this(
                 topico.getId(),
                 topico.getAutor(),
