@@ -1,4 +1,4 @@
-package apiforo.backend.Apiforo.infra.validations;
+package apiforo.backend.Apiforo.infra.exceptions;
 
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.http.ResponseEntity;
